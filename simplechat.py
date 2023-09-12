@@ -100,9 +100,3 @@ class Conversation:
         ]
         return "\n\n".join(messages)
     
-if __name__ == "__main__":
-    chat = Conversation("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")
-    chat.say("hello")
-    chat.say("when is christmas?")
-    chat.say("write me a limerick")
-    print(chat)
