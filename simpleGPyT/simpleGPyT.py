@@ -132,6 +132,11 @@ class Conversation:
         
         return self.__messages[-1]["content"]
     
+    def get_messages(self) -> list:
+        '''Gets a list of all messages'''
+        
+        return {message["role"]: message["content"] for message in self.__messages}
+    
     def clear_messages(self) -> None:
         '''Clears all messages from the chat'''
         
