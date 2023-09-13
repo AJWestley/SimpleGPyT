@@ -1,5 +1,20 @@
-<h1 align="center">💬 SimpleChat 💬</h1>
-A simplified object-oriented interface for OpenAI's chat completion API.
+<h1 align="center">💬 SimpleGPyT 💬</h1>
+<p align="center">A simplified object-oriented interface for OpenAI's chat completion API.</p>
+
+## Installation
+
+Ensure you have Python 3.10 or newer. Python 3.7.1 and up should work as well, but these are untested. </br>
+To install the package, run:
+
+```bash
+pip install simpleGPyT
+```
+
+To use the package, import it at the top of the file.
+
+```python
+from simpleGPyT import Conversation
+```
 
 ## Usage
 
