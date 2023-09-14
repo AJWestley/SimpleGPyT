@@ -1,9 +1,10 @@
-# sourcery skip: path-read
+'''Setup file for simpleGPyT'''
+
 from setuptools import find_packages, setup
 
 VERSION = "0.1.4"
 
-with open('./README.md') as fp:
+with open('./README.md', encoding='UTF-8') as fp:
     long_description = fp.read()
 
 setup(
