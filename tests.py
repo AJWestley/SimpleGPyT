@@ -12,3 +12,7 @@ class TestGPyT(unittest.TestCase):
         self.assertEquals(convo.get_max_tokens(), 100, "Incorrect default max_tokens.")
         self.assertEquals(convo.get_temperature(), 1, "Incorrect default temperature.")
         self.assertEquals(len(convo.get_messages()), 0, "Message list not empty.")
+
+
+if __name__ == '__main__':
+    unittest.main()
