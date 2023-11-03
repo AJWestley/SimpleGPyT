@@ -14,4 +14,4 @@ jobs:
       run : pip install openai
       
     - name : Run tests 
-      run : python3 -m unittest simpleGPyT.Testing
+      run : python3 -m unittest tests.Testing
