@@ -95,7 +95,7 @@ class Conversation:
 
     # Chat
 
-    def say(self, message: str) -> str:
+    def say(self, message: str) -> str: # TODO: Refactor for request error
         '''Sends a message to the assistant and gets its response
 
         Parameters
