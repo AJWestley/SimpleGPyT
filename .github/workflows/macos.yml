@@ -1,0 +1,17 @@
+name: MacOS
+
+on: push 
+
+jobs:
+  unit-testing:
+    runs-on: macos-latest
+    
+    steps:
+    - name : Checkout code
+      uses : actions/checkout@v2
+      
+    - name : Install Packages 
+      run : pip install openai
+      
+    - name : Run tests 
+      run : python3 -m unittest -v
