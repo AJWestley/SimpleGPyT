@@ -1,5 +1,9 @@
 <h1 align="center">💬 SimpleGPyT 💬</h1>
-<p align="center">A simplified object-oriented interface for OpenAI's chat completion API.</p>
+<p align="center">A simplified object-oriented interface for OpenAI's chat completion API.</p> </br>
+
+![](https://github.com/AJWestley/SimpleGPyT/actions/workflows/push_event_workflow.yml/badge.svg)
+[![GitHub](https://img.shields.io/github/license/AJWestley/SimpleGPyT)](https://github.com/AJWestley/SimpleGPyT)
+[![PyPI](https://img.shields.io/pypi/v/SimpleGPyT?logo=pypi)](https://pypi.org/project/SimpleGPyT)
 
 ## Installation
 
